@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>lxy的秋招助手 · 填写</title>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <h1>lxy的秋招助手</h1>
+          <p class="repo-note">作者 lxy · 把时间留给更值得的机会。</p>
+          <a class="repo-link" href="https://github.com/holeseven/qiuzhi_helper" target="_blank" rel="noopener">github.com/holeseven/qiuzhi_helper</a>
+        </div>
+        <button id="openOptions" class="ghost" type="button">设置</button>
+      </header>
+
+      <section class="panel">
+        <button id="startAutofillBtn" type="button">开始填写</button>
+        <button id="showProfilePanelBtn" class="secondary" type="button">打开资料面板</button>
+        <button id="clearMarksBtn" class="ghost full" type="button">清除颜色标记</button>
+      </section>
+
+      <section class="panel">
+        <h2>版本更新</h2>
+        <div id="updateStatus" class="update-status">正在读取更新状态...</div>
+        <button id="checkUpdateBtn" class="secondary" type="button">检查更新</button>
+        <button id="openUpdateBtn" class="ghost full" type="button">打开 Release 页面</button>
+      </section>
+
+      <section class="panel muted">
+        <div id="status">点击开始填写后会在页面右下角显示进度。绿色表示已填写，橙色表示待处理。</div>
+      </section>
+
+      <section class="panel">
+        <h2>资料留在你身边</h2>
+        <p class="hint">在设置页维护自己的资料，基础填写不需要账号或 API Key。先预览，再确认填写；已有内容会保留，最后由你检查并提交。</p>
+      </section>
+    <footer class="hint" style="padding:12px 24px">作者：lxy · 基于 OpenJobAutofill（MIT）改造</footer>
+    </main>
+
+    <script src="./popup.js"></script>
+  </body>
+</html>

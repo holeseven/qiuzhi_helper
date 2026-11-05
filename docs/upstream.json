@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/Br1an67/OpenJobAutofill",
+  "commit": "005eda98841b3671ead615ebfde5922f0dfd7c36",
+  "archiveSha256": "bac7717c38dd47e25c6925b48aca46046226c1bc4ed47af91cdf86c22a57cf07",
+  "originalFileCount": 42,
+  "license": "MIT",
+  "copyright": "2026 Br1an67",
+  "snapshotRelativeToProject": "vendor/OpenJobAutofill-005eda98841b"
+}

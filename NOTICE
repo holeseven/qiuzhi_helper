@@ -1,0 +1,12 @@
+lxy的秋招助手
+Product author and maintainer: lxy
+Copyright (c) 2026 lxy, modifications and new project files.
+
+The browser extension is derived from OpenJobAutofill:
+https://github.com/Br1an67/OpenJobAutofill
+Upstream commit: 005eda98841b3671ead615ebfde5922f0dfd7c36
+Copyright (c) 2026 Br1an67
+License: MIT. The original copyright and license are retained in LICENSE and extension/LICENSE.
+
+Playwright is used for development and tests, not bundled into the extension.
+Spring Boot and its dependencies retain their own licenses inside the backend distribution.

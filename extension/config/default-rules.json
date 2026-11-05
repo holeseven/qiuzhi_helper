@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "version": "2026.11.06.1",
+  "aliases": {
+    "姓名": [
+      "名字",
+      "应聘人姓名",
+      "真实姓名"
+    ],
+    "电话": [
+      "手机",
+      "手机号",
+      "手机号码",
+      "联系手机",
+      "常用手机号码"
+    ],
+    "邮箱": [
+      "电子邮件",
+      "电子邮箱",
+      "联系邮箱"
+    ],
+    "学校": [
+      "毕业院校",
+      "就读院校"
+    ],
+    "专业": [
+      "所学专业"
+    ],
+    "论文名称": [
+      "论文题目",
+      "论文标题"
+    ],
+    "专利名称": [
+      "专利标题"
+    ],
+    "科研项目": [
+      "课题名称",
+      "研究项目"
+    ]
+  },
+  "sites": [
+    {
+      "id": "moka",
+      "name": "Moka 招聘",
+      "hostSuffix": "mokahr.com",
+      "containerSelector": ".ant-form-item,.form-item,[class*='formItem']",
+      "labelSelector": "label,.ant-form-item-label,[class*='label']",
+      "sectionSelector": "h2,h3,h4,[class*='section-title']",
+      "repeatItemSelector": ".resume-item,.ant-card,[class*='record-item']",
+      "indicators": [
+        ".ant-form-item"
+      ]
+    },
+    {
+      "id": "zhiye",
+      "name": "北森/智业招聘",
+      "hostSuffix": "zhiye.com",
+      "containerSelector": ".ant-form-item,.form-item,[class*='field']",
+      "labelSelector": "label,.ant-form-item-label,[class*='label']",
+      "sectionSelector": "h2,h3,h4,[class*='sectionTitle']",
+      "repeatItemSelector": ".resume-item,.ant-card,[class*='record-item']",
+      "indicators": [
+        ".ant-form-item"
+      ]
+    }
+  ]
+}

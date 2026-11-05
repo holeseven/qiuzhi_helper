@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "lxy的秋招助手",
+  "version": "0.1.0",
+  "description": "免登录、本地保存资料的秋招网申助手。本地规则优先，预览后填写，提交由本人操作。",
+  "homepage_url": "https://github.com/holeseven/qiuzhi_helper",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.github.com/*",
+    "http://127.0.0.1/*"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "optional_host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "lxy的秋招助手",
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "options_page": "src/options.html",
+  "author": "lxy"
+}
